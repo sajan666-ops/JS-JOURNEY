@@ -15,11 +15,11 @@ console.table([myName, age, islogged, obj, und])
 ┌─────────┬───────────┐
 │ (index) │ Values    │
 ├─────────┼───────────┤
-│ 0       │ 'Sajan'   │
-│ 1       │ 18        │
-│ 2       │ true      │
-│ 3       │ null      │
-│ 4       │ undefined │
+│ 0       │ 'Sajan'   │ --> String
+│ 1       │ 18        │ --> Integer [Int]
+│ 2       │ true      │ --> Bollean
+│ 3       │ null      │ --> Null
+│ 4       │ undefined │ --> Undefined
 └─────────┴───────────┘
 
 */
