@@ -1,0 +1,38 @@
+//  Primitive
+
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+
+const score = 100 // this is NUMBER
+const scoreValue = 100.3 // this a also a NUMBER but in float value. even javascript take both type of number as same INT
+
+const isLoggedIn = false // this is BOOLEAN
+const outsideTemp = null // this is NULL
+let userEmail; // this is UNDEFINED
+
+const id = Symbol('123') // this is symbol. we'll talk about it later on
+const anotherId = Symbol('123')
+
+console.log(id === anotherId); // "===" this equal to sign is used to compare both values and its type
+
+const bigNumber = 3456543576654356754n // this is BIGINT it is used in production code 
+
+
+
+// Reference (Non primitive)
+
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"]; // this is ARRAY
+let myObj = {     // this is OBJECT
+    name: "hitesh", 
+    age: 22,
+}
+
+const myFunction = function(){ // this is FUNCTION
+    console.log("Hello world"); 
+}
+
+console.log(typeof anotherId); // by this you can print the type of data on console
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3 
+// read the upper value to gain knowlegde in more depth about data and its type.
