@@ -1,0 +1,128 @@
+today i learnt about STRINGs,NUMs,MATHs:
+STRINGs:
+// so today i learned about STRING. yeah i know them but to make my basics fully concrete i did this.
+
+// so lets get started. 
+// ***************** STRING ***************************
+
+
+// -----> STRING INTERPOLATION
+const name = "sajan" //----> here i assigned my name to NAME constant
+const age = 18 //----> here's the age 
+const city  = "Faridkot" //----> here's the city.
+
+/*  BY STRING INTERPOLATION METHOD I CAN USE ALL 3 TERMS IN ONE STRING*/ 
+console.log(`Hello my name is ${name}, im ${age} year old. i live in ${city}`)
+
+// -----> LOWERCASE/UPPERCASE
+let nameUppercase = name.toUpperCase();
+console.log(nameUppercase) // by that method i can UPPERCASE the whole string.
+
+let nameUP = "SAJAN"
+let textLC = nameUP.toLowerCase();
+console.log(textLC) // by that method i can LOWERCASE the whole string.
+
+// -----> TRIMMING THE STRING
+let unTrimmedName = "       Sajan      " // trim works on whitespaces
+console.log(unTrimmedName) // simple out put
+console.log(unTrimmedName.trim()) // trimmed out put
+
+// -----> POSITIONING
+console.log(name.charAt(2)); // this will help to find the character on the particular position
+console.log(name.indexOf('s')); // this will help to find the particular position  of the character
+
+// -----> URL
+let url = "Sajanmahla739.com" // this is our URL
+console.log(url.length) // This help's to find the lenght of the string
+console.log(url.replace('7', '-')) // this help's to replace the particular character or word
+console.log(url.includes("Sajan")) // if the word/character is present. it will return true
+console.log(url.includes("sam")) // here it will return false
+
+
+// -----> SPLIT
+const gameName = new String('Sajan-sm-com') // this is name of the game
+console.log(gameName.split('-')); // i used split with this to convert it into array where DASH is present
+
+// ----->  TERMINAL OUTPUTS:
+/* 
+Hello my name is sajan, im 18 year old. i live in Faridkot
+SAJAN
+sajan
+       Sajan      
+Sajan
+j
+0
+17
+Sajanmahla-39.com
+true
+false
+[ 'Sajan', 'sm', 'com' ]
+*/
+
+_________________________________________________________________________________________________________
+NUMs:
+// so here we'll learn about NUMBERS. very easy but very used topic.
+let number = 100 // so here we assigned 100 to nums
+console.log(number) // here is its simple output
+
+let balance = new Number(100) // by this method we tell the JS to give me number in strictly INT
+console.log(balance) // here's the putput
+
+console.log(number.toString()) // by this method i changed the number to STRING
+
+console.log(number.toString().length) // byt his we can find the lenght of the NUMBER
+
+console.log(number.toFixed(1)) // by this method we can see the point after the number the POINTVALUE WILL BE XXX.0 = ONE
+console.log(number.toFixed(2)) // by this method we can see the point after the number the POINTVALUE WILL BE XXX.00 = TWO
+console.log(number.toFixed(3)) // by this method we can see the point after the number the POINTVALUE WILL BE XXX.000 = THREE
+
+
+const uglynumber = 21.4738 
+console.log(uglynumber.toPrecision(3)) // by thid we can ROUND-FIGURE any number with its precision value
+
+
+const bignumber = 1000000
+console.log(bignumber.toLocaleString()) // this method is used to easily read the complex numbers
+
+
+/* OUTPUT:
+100
+[Number: 100]
+100
+3
+100.0
+100.00
+100.000
+21.5
+1,000,000
+*/
+_________________________________________________________________________________________________________
+MATHs:
+// so here i learned about MATHS in JAVASCRIPT.
+
+console.log(Math) // so this is used to output the simple maths function
+console.log(Math.abs(-33)) // this is absolute. it is used to convert the negative number to positive 
+console.log(Math.round(4.3)) // this is use the round off the decimal number
+console.log(Math.ceil(6.1)) // it is always used to round to round off to bigger side.
+console.log(Math.floor(9.9)) // it is always used to round to round off to smaller side.
+console.log(Math.min(4,7,2,8)) // it is used to find the minimum of all the numbers
+console.log(Math.max(4,7,2,8)) // it is used to find the maximum of all the numbers
+console.log(Math.random()) // it is used to get the random number. these numbers are very low 
+console.log(Math.random()*10 + 1) // by this we can get the number which will be start from one
+
+let max = 20 // here we assign the max number 
+let min = 10 // here we assign the min number 
+
+console.log(Math.floor(Math.random() * max - min + 1) + min) // by this we can get the random number in bw MIN and MAX.
+
+/* OUTPUT:
+33
+4
+7
+9
+2
+8
+0.19903784313159667
+5.433585628815853
+2
+*/
