@@ -1,0 +1,161 @@
+today  i did ARRAY ADVANCE & OBJCTS:
+ARRAY:
+// so here i did array with some more methods.
+const marvel_heros = ["thor", "Ironman", "spiderman"]  // this is our first array
+const dc_heros = ["superman", "flash", "batman"] // this is second
+
+marvel_heros.push(dc_heros) // ---> this ia raw method to add array but this leads to a problem that when we add them it will give second array in the form of element 
+// in easy words array in the array
+
+console.log(marvel_heros);
+console.log(marvel_heros[3][1]); //---> this is used to get the 2nd element of the 3rd element. like 3rd element is another array and its second element is 1st index.
+
+const allHeros = marvel_heros.concat(dc_heros) //this will mergge both the arrays.
+console.log(allHeros);
+
+const all_new_heros = [...marvel_heros, ...dc_heros] // this is SPREAD. it will spread all the elements and can prseent it in new array.
+
+console.log(all_new_heros);
+
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]] // this is the example of bad array
+
+const real_another_array = another_array.flat(Infinity) // by FLAT method we can add all upper array to one array.
+console.log(real_another_array);
+
+
+
+console.log(Array.isArray("SAJAN")) // this will return the boolean value that the particular thing is array or not
+console.log(Array.from("SAJAN")) // this will convert anything in the array 
+console.log(Array.from({name: "hitesh"})) // interesting it will give an empty array 
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3)); // this will convert upper 3 values to an array
+
+/*  OUTPUT:
+[ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]
+flash
+[
+  'thor',
+  'Ironman',
+  'spiderman',
+  [ 'superman', 'flash', 'batman' ],
+  'superman',
+  'flash',
+  'batman'
+]
+[
+  'thor',
+  'Ironman',
+  'spiderman',
+  [ 'superman', 'flash', 'batman' ],
+  'superman',
+  'flash',
+  'batman'
+]
+[
+  1, 2, 3, 4, 5,
+  6, 7, 6, 7, 4,
+  5
+]
+false
+[ 'H', 'i', 't', 'e', 's', 'h' ]
+[]
+[ 100, 200, 300 ]
+mac@SAJANs-Macbook-Pro Js-project % node array2.js
+[ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]
+flash
+[
+  'thor',
+  'Ironman',
+  'spiderman',
+  [ 'superman', 'flash', 'batman' ],
+  'superman',
+  'flash',
+  'batman'
+]
+[
+  'thor',
+  'Ironman',
+  'spiderman',
+  [ 'superman', 'flash', 'batman' ],
+  'superman',
+  'flash',
+  'batman'
+]
+[
+  1, 2, 3, 4, 5,
+  6, 7, 6, 7, 4,
+  5
+]
+false
+[ 'S', 'A', 'J', 'A', 'N' ]
+[]
+[ 100, 200, 300 ]
+
+*/
+______________________________________________________________________________________________________________________________
+OBJECTS:
+// singleton
+// Object.create
+
+// object literals
+
+const mySym = Symbol("key1")
+
+
+const JsUser = { // this is a JSON which include my information
+    name: "Sajan",
+    "full name": "Sajan mahla",
+    [mySym]: "mykey1",
+    age: 18,
+    location: "faridkot",
+    email: "sajan@google.com",
+    isLoggedIn: false,
+    lastLoginDays: ["Monday", "Saturday"]
+}
+
+ console.log(JsUser.email) // this is how we can print email
+console.log(JsUser["email"]) // this is more good practice of JS
+ console.log(JsUser["full name"]) // this will give you my full name 
+ console.log(JsUser[mySym]) // this is use to print the 
+
+JsUser.email = "Sajan@chatgpt.com" // this is used to update the email.
+ Object.freeze(JsUser) // like this is used to freeeze the updation of email  
+JsUser.email = "Sajan@microsoft.com" // this has no effect like we used freeze in upper line
+ console.log(JsUser);
+
+JsUser.greeting = function(){ //this is greeting function
+    console.log("Hello JS user");
+}
+JsUser.greetingTwo = function(){ // this is also greeting function.
+    console.log(`Hello JS user, ${this.name}`);
+}
+
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
+
+/* OUTPUT:
+sajan@google.com
+sajan@google.com
+Sajan mahla
+mykey1
+{
+  name: 'Sajan',
+  'full name': 'Sajan mahla',
+  age: 18,
+  location: 'faridkot',
+  email: 'Sajan@microsoft.com',
+  isLoggedIn: false,
+  lastLoginDays: [ 'Monday', 'Saturday' ],
+  [Symbol(key1)]: 'mykey1'
+}
+Hello JS user
+undefined
+Hello JS user, Sajan
+undefined
+*/
+
+
