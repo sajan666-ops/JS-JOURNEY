@@ -14,8 +14,9 @@
 - **Day 6** → Nums/maths & String
 - **Day 7** → Date/Time & Array
 - **Day 8** → Array advance & Objects
-- **Day 9** → GOD KNOWS
-
+- **Day 9** → objcet construct, destruct & Api talks
+- **Day 10** → GOD KNOWS
+  
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
 ## 🎯 The Mission
