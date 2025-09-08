@@ -1,0 +1,95 @@
+// lets talk about FUNCTIONS
+
+function myNameis() {  // ---> my first function here myNameis is the name of the function
+console.log("S")
+console.log("A")
+console.log("J")
+console.log("A")
+console.log("N")
+}
+
+myNameis() // by this we are calling the function that please return the function. 
+
+
+
+
+function addTwoNumbers(number1, number2){ // here we are making an addition function 
+
+    console.log(number1 + number2);
+ }
+
+
+
+function addTwoNumbers(number1, number2){ // this is more good practice for returning the function. REMEBER AFTER THE RETURN NOTHING WILL BE RUN LIKE AFTER RETURN LINE EVERY LINE IN SCOPW WILL WORK AS COMMENT 
+
+     let result = number1 + number2
+     return result
+   // return number1 + number2
+}
+
+const result = addTwoNumbers(3, 5) // here we are assigning the number1 and number2.
+
+ console.log("Result: ", result);
+
+
+
+function loginUserMessage(username = "sam"){ // this is function where we have to show that user is logged in and we already input my name which is sam
+    if(!username){                            // this line tell us if username is not present or undefined the following line is printed and code below will not run because of the return statement
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in` // buy if username is present it will return as simple
+}
+
+console.log(loginUserMessage("Sajan")) // by this line we are overwriting the oue own function. first it was SAM just logged in. now it is SAJAN just logged in
+
+
+// _______________________________________________________________________________________________________________________________________________________________
+// Functions with OBJECTS and ARRAY
+
+function calculateCartPrice(val1, val2, ...num1){ // so suppose we are adding items to cart in shopping list and then adding itmes price one by one we use REST not of db but of javascript yes REST and SPREAD are same 
+    return num1
+}
+
+console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user = { // this is object as we all know
+    username: "hitesh",
+    prices: 199
+}
+
+function handleObject(anyobject){ // this is function where we handle object with it
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`); // this is string interpolation
+}
+
+handleObject(user) // ---> by this we can print 
+handleObject({ //but by this we can get it and overWrite the whole object
+    username: "sam",
+    price: 399
+})
+
+const myNewArray = [200, 400, 100, 600] // this is an array
+ 
+function returnSecondValue(getArray){ // here we are using array in functions
+    return getArray[1] // the index of array we need 
+}
+
+console.log(returnSecondValue(myNewArray)); // printing it
+console.log(returnSecondValue([200, 400, 500, 1000])); // doing it manually
+
+
+
+/* OUPUTS:
+S
+A
+J
+A
+N
+Result:  8
+Sajan just logged in
+[ 500, 2000 ]
+Username is hitesh and price is undefined
+Username is sam and price is 399
+400
+400
+*/
