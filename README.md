@@ -16,7 +16,8 @@
 - **Day 8** → Array advance & Objects
 - **Day 9** → objcet construct, destruct & Api talks
 - **Day 10** → Functions & Functions with objects and arrays 
-- **Day 11** → GOD KNOWS
+- **Day 11** → Scope & Mini Hoisting
+- **Day 12** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
@@ -41,8 +42,5 @@
 
 ## 📊 Streak Proof
 
-<!-- Add your streak tracking here -->
-
----
 
 ⚡ **Next up** → **Objects, JSON, APIs**. Stay tuned. The grind is **24/7**.
