@@ -1,0 +1,78 @@
+
+// so today i did THIS. yes this is this 
+
+
+const user = { // object
+    username: "Sajan",
+    price: 999,
+
+    welcomeMessage: function() { // function inside object
+        console.log(`${this.username} , welcome to website`); // string interpolation inside the object
+        console.log(this); // printing simple this
+    }
+
+}
+
+ user.welcomeMessage()
+user.username = "sam"
+ user.welcomeMessage()
+
+ console.log(this);
+
+ function simple(){ // simple function that'll simply return UNDEFINED
+   let username = "Sajan"
+    console.log(this.username);
+ }
+
+ simple()
+
+
+ // ++++++++++++ ARROW FUNCTION ++++++++++++
+ const chai = function () { // simple function
+     let username = "SAJAN"
+     console.log(this.username);
+}
+
+const chaiarrow =  () => { // simple arrow function in which we pick the {} and function keyword but added => arrow
+    let username = "Sajan"
+    console.log(this);
+}
+
+
+ chaiarrow()
+
+ const addTwonumber = (num1, num2) => {
+     return num1 + num2
+ }
+
+ const addTwo = (num1, num2) =>  num1 + num2
+
+ const addTwoimplicit = (num1, num2) => ( num1 + num2 )
+
+const addTwonum = (num1, num2) => ({username: "SAJAN"})
+
+
+console.log(addTwonum(3, 4))
+
+
+// const myArray = [2, 5, 3, 7, 8] --> will discuss later after the loop concept
+// myArray.forEach()
+
+/* OUTPUTS:
+Sajan , welcome to website
+{
+  username: 'Sajan',
+  price: 999,
+  welcomeMessage: [Function: welcomeMessage]
+}
+sam , welcome to website
+{
+  username: 'sam',
+  price: 999,
+  welcomeMessage: [Function: welcomeMessage]
+}
+{}
+undefined
+{}
+{ username: 'SAJAN' }
+*/
