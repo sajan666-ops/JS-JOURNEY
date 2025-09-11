@@ -18,7 +18,8 @@
 - **Day 10** → Functions & Functions with objects and arrays 
 - **Day 11** → Scope & Mini Hoisting
 - **Day 12** → THIS, Aroow & IIFE
-- **Day 13** → GOD KNOWS
+- **Day 13** → Call Stack & Control Flow
+- **Day 14** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
