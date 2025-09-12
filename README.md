@@ -19,7 +19,8 @@
 - **Day 11** → Scope & Mini Hoisting
 - **Day 12** → THIS, Aroow & IIFE
 - **Day 13** → Call Stack & Control Flow
-- **Day 14** → GOD KNOWS
+- **Day 14** → Loops- For,Break,Continue & While,Do-While
+- **Day 15** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
