@@ -20,8 +20,8 @@
 - **Day 12** → THIS, Aroow & IIFE
 - **Day 13** → Call Stack & Control Flow
 - **Day 14** → Loops- For,Break,Continue & While,Do-While
-- **Day 15** → Loops and all
-- **Day 15** → GOD KNOWS
+- **Day 15** → Loops- forIn, forOf & Map,Filter,Reduce
+- **Day 16** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
