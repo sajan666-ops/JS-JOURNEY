@@ -21,6 +21,7 @@
 - **Day 13** → Call Stack & Control Flow
 - **Day 14** → Loops- For,Break,Continue & While,Do-While
 - **Day 15** → Loops- forIn, forOf & Map,Filter,Reduce
+- **Day 16** → Dom & Console Methods
 - **Day 16** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
