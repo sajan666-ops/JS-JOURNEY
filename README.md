@@ -23,7 +23,8 @@
 - **Day 15** → Loops- forIn, forOf & Map,Filter,Reduce
 - **Day 16** → Dom & Console Methods
 - **Day 17** → Dom DONE 🚀
-- **Day 18** → GOD KNOWS
+- **Day 18** → Projects & Event
+- **Day 19** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
