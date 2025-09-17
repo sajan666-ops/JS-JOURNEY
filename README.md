@@ -24,7 +24,8 @@
 - **Day 16** → Dom & Console Methods
 - **Day 17** → Dom DONE 🚀
 - **Day 18** → Projects & Event
-- **Day 19** → GOD KNOWS
+- **Day 19** → Async & Projects
+- **Day 20** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
