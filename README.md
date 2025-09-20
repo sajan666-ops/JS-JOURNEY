@@ -27,7 +27,8 @@
 - **Day 19** → Async & Projects
 - **Day 20** → Api & Promises
 - **Day 21** → Fetch & Oop's
-- **Day 22** → GOD KNOWS
+- **Day 22** → Call,This & Prototype
+- **Day 23** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
