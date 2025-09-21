@@ -28,7 +28,8 @@
 - **Day 20** → Api & Promises
 - **Day 21** → Fetch & Oop's
 - **Day 22** → Call,This & Prototype
-- **Day 23** → GOD KNOWS
+- **Day 23** → Classes,Constructors,Static & Bind
+- **Day 24** → GOD KNOWS
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
