@@ -31,7 +31,9 @@
 - ** Day 23 ** → Classes,Constructors,Static & Bind
 - ** Day 24 ** → Objects in-depth & Getter-Setter
 - ** Day 25 ** → Lexical & CALL THE SHOTS ♛
-- ** Day ∞  ** → GOD KNOWS 🚀
+
+  ----- Course DONE 🚀 -----
+- ** Day ∞  ** → Now PROJECTS or NODE,
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
