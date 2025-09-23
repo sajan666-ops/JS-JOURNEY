@@ -6,31 +6,32 @@
 
 📁 **Day 1 → Day ∞** Every folder is a timestamp of war. Inside: raw code, experiments, failures, breakthroughs.
 
-- **Day 1** → JavaScript Setup in MAC
-- **Day 2** → Let,Const, var 
-- **Day 3** → Datatype & Conversions 
-- **Day 4** → operations & comparison
-- **Day 5** → Stack & Heap
-- **Day 6** → Nums/maths & String
-- **Day 7** → Date/Time & Array
-- **Day 8** → Array advance & Objects
-- **Day 9** → objcet construct, destruct & Api talks
-- **Day 10** → Functions & Functions with objects and arrays 
-- **Day 11** → Scope & Mini Hoisting
-- **Day 12** → THIS, Aroow & IIFE
-- **Day 13** → Call Stack & Control Flow
-- **Day 14** → Loops- For,Break,Continue & While,Do-While
-- **Day 15** → Loops- forIn, forOf & Map,Filter,Reduce
-- **Day 16** → Dom & Console Methods
-- **Day 17** → Dom DONE 🚀
-- **Day 18** → Projects & Event
-- **Day 19** → Async & Projects
-- **Day 20** → Api & Promises
-- **Day 21** → Fetch & Oop's
-- **Day 22** → Call,This & Prototype
-- **Day 23** → Classes,Constructors,Static & Bind
-- **Day 24** → Objects in-depth & Getter-Setter
-- **Day 24** → GOD KNOWS 🚀
+- ** Day 1 ** → JavaScript Setup in MAC
+- ** Day 2 ** → Let,Const, var 
+- ** Day 3 ** → Datatype & Conversions 
+- ** Day 4 ** → operations & comparison
+- ** Day 5 ** → Stack & Heap
+- ** Day 6 ** → Nums/maths & String
+- ** Day 7 ** → Date/Time & Array
+- ** Day 8 ** → Array advance & Objects
+- ** Day 9 ** → objcet construct, destruct & Api talks
+- ** Day 10 ** → Functions & Functions with objects and arrays 
+- ** Day 11 ** → Scope & Mini Hoisting
+- ** Day 12 ** → THIS, Aroow & IIFE
+- ** Day 13 ** → Call Stack & Control Flow
+- ** Day 14 ** → Loops- For,Break,Continue & While,Do-While
+- ** Day 15 ** → Loops- forIn, forOf & Map,Filter,Reduce
+- ** Day 16 ** → Dom & Console Methods
+- ** Day 17 ** → Dom DONE 🚀
+- ** Day 18 ** → Projects & Event
+- ** Day 19 ** → Async & Projects
+- ** Day 20 ** → Api & Promises
+- ** Day 21 ** → Fetch & Oop's
+- ** Day 22 ** → Call,This & Prototype
+- ** Day 23 ** → Classes,Constructors,Static & Bind
+- ** Day 24 ** → Objects in-depth & Getter-Setter
+- ** Day 25 ** → Lexical & CALL THE SHOTS ♛
+- ** Day ∞  ** → GOD KNOWS 🚀
   
 📌 Each day = a brick. At 1000 bricks = fortress. At fortress = Cupertino.
 
